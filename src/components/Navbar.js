@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Navbar.css';
@@ -18,7 +18,7 @@ function Navbar() {
     //функция клика по крестику (закрыть меню гамбургер)
     const closeMobileMenu = () => setClick(false);
 
-    //функция, показывающая кнопку Sign Up при ширине экрана 960 и выше, скрывает при ширине <960
+    //функция, показывающая кнопку Sign Up при ширине экрана 960px и выше, скрывает при ширине <960px
     const showButton = () => {
         if(window.innerWidth <= 960) {
             setButton(false)
@@ -27,6 +27,11 @@ function Navbar() {
         }
     };
 
+    //чтобы кнопка Sign Up не появлялась при ширине экрана < 960px при обновлении страницы (отрисовывается 1 раз, т.к. передан пустой массив зависимостей)
+    useEffect(() => {
+        showButton();
+    }, [])
+
     //showButton на событие resize    
     window.addEventListener('resize', showButton);
 
@@ -34,7 +39,8 @@ function Navbar() {
     <div>
         <nav className="navbar">
             <div className="navbar-container">
-                <Link to="/" className="navbar-logo">
+                {/* при клике по логотипу mobile Menu также закрывается */}
+                <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                     TRVL <i className="fab fa-typo3"></i>
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>

@@ -5,7 +5,10 @@ import cards from '../card';
 
 function Cards() {
 
-    const cardItem = cards.map(card => 
+    const FirstUl = cards.slice(0, 2);
+    const SecondUl = cards.slice(2, 5);
+
+    const CardSectionOne = FirstUl.map(card => 
             <CardItem 
                 src={card.src}
                 text={card.text}
@@ -14,7 +17,17 @@ function Cards() {
                 key={card.id}
             />
         );
-        console.log(cardItem);
+    
+    const CardSectionTwo = SecondUl.map(card => 
+            <CardItem 
+                src={card.src}
+                text={card.text}
+                label={card.label}
+                path={card.path}
+                key={card.id}
+            />
+        );
+
 
   return (
     <div className="cards">
@@ -22,19 +35,11 @@ function Cards() {
         <div className="cards__container">
             <div className="cards__wrapper">
                 <ul className="cards__items">
-                    {cardItem}
-                    {/* <CardItem 
-                        src={image9}
-                        text="Explore the hidden waterfall deep inside  the Amazon jungle"
-                        label="Adventure"
-                        path='/services'
-                    />
-                    <CardItem 
-                        src={image3}
-                        text="Explore the hidden waterfall deep inside  the Amazon jungle"
-                        label="Adventure"
-                        path='/services'
-                    /> */}
+                    {CardSectionOne}
+                </ul>
+
+                <ul className="cards__items">
+                    {CardSectionTwo}
                 </ul>
             </div>
         </div>

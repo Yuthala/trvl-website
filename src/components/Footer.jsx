@@ -55,6 +55,34 @@ function Footer() {
                 </div>
             </div>
         </div>
+        <section className="social-media">
+            <div className="social-media-wrap">
+                <div className="footer-logo">
+                    <Link to="/" className="social-logo">
+                        TRVL <i className="fab fa-typo3"></i>
+                    </Link>
+                </div>
+                <small className="website-rights">TRVL © 2020</small>
+                <div className="social-icons">
+                    <Link 
+                        to="/" 
+                        target="_blank" 
+                        aria-label="Facebook" 
+                        className="social-icon-link facebook"
+                    >
+                        <i className="fab fa-facebook-f"></i>
+                    </Link>
+                    <Link 
+                        to="/" 
+                        target="_blank" 
+                        aria-label="Instagram" 
+                        className="social-icon-link instagram"
+                    >
+                        <i className="fab fa-instagram"></i>
+                    </Link>
+                </div>
+            </div>
+        </section>
     </div>
   )
 }

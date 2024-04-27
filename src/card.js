@@ -4,7 +4,6 @@ import image3 from './images/img-3.jpg';
 import image4 from './images/img-4.jpg';
 import image8 from './images/img-8.jpg';
 
-
 const cards = [
     {
         id: 1,
@@ -38,5 +37,6 @@ const cards = [
         path: '/sign-up'
     }
 ];
+
 
 export default cards;

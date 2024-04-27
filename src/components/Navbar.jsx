@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Navbar.css';
-
+import logo from './../images/logo.png'; 
 
 function Navbar() {
 
@@ -41,7 +41,8 @@ function Navbar() {
             <div className="navbar-container">
                 {/* при клике по логотипу mobile Menu также закрывается */}
                 <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                    TRVL <i className="fab fa-typo3"></i>
+                    <img src={logo} width={90} alt="logo"/>
+                    {/* <i className="fab fa-typo3"></i> */}
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

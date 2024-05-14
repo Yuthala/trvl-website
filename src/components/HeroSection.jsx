@@ -7,16 +7,16 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className="hero-container">
-        {/* <video src="../videos/video-2.mp4" autoPlay loop muted/> */}
-        <h1>ADVENTIRE AWAITS</h1>
-        <p>What are you waiting for?</p>
+        <video src="../videos/Green_pato_cover.mp4" autoPlay loop muted/>
+        <h1>Питомник луковичных культур</h1>
+        <p>Посевной материал собственного производства</p>
         <div className="hero-btns">
             <Button 
-                className="btns"   
+                className="btns"
                 buttonStyle="btn--outline"
                 buttonSize="btn--large"
             >
-            GET STARTED
+            КАТАЛОГ
             </Button>
 
             <Button 
@@ -24,7 +24,7 @@ function HeroSection() {
                 buttonStyle="btn--primary"
                 buttonSize="btn--large"
             >
-            WATCH TRAILER <i className="far fa-play-circle" />
+            ВИДЕО О ПИТОМНИКЕ <i className="far fa-play-circle" />
             </Button>
         </div>
     </div>

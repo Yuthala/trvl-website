@@ -1,5 +1,9 @@
 :root {
     --primary: #fff;
+    --accent: #504842;
+    --tint: #AB3541;
+    --background: #B4C277;
+    --text-background: #F9FBE9;
 }
 
 .btn {
@@ -8,6 +12,7 @@
     outline: none;
     border: none;
     cursor: pointer;
+    font-family: 'Lobster';
 }
 
 /*btn color*/
@@ -18,10 +23,10 @@
 }
 
 .btn--outline  {
-    background-color: transparent;
+    background-color: var(--tint);
     color: #fff;
     padding: 8px 20px;
-    border: 1px solid var(--primary);
+    border: 1px solid var(--tint);
     transition: all 0.3s ease-out;
 }
 
@@ -39,6 +44,12 @@
 /*hover effects*/
 .btn--medium:hover, .btn--large:hover {
     background-color: #fff;
-    color: #242424;
+    color: var(--tint);
+    transition: all 0.3s ease-out;
+}
+
+.btn--large:hover {
+    background-color: transparent;
+    color: #fff;
     transition: all 0.3s ease-out;
 }

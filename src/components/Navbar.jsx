@@ -50,31 +50,31 @@ function Navbar() {
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className="nav-item">
                         <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                            Home
+                            Главная
                         </Link>
                     </li>
 
                     <li className="nav-item">
                         <Link to="services/" className="nav-links" onClick={closeMobileMenu}>
-                            Services
+                            Культуры
                         </Link>
                     </li>
 
                     <li className="nav-item">
                         <Link to="/products" className="nav-links" onClick={closeMobileMenu}>
-                            Products
+                            Доставка и Оплата
                         </Link>
                     </li>
 
                     <li className="nav-item">
                         <Link 
                             to="/sign-up" className="nav-links-mobile" onClick={closeMobileMenu}>
-                            Sign Up
+                            Заказать
                         </Link>
                     </li>
                 </ul>
                 {/* if button is true, return Button component */}
-                {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
+                {button && <Button buttonStyle="btn--outline">ЗАКАЗАТЬ</Button>}
             </div>
         </nav>
     </div>

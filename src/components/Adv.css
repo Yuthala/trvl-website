@@ -14,25 +14,25 @@
 	  /* Larger blur radius */
 	  text-shadow:
 		0 0 4px #fff,
-		0 0 11px #fff,
-		0 0 19px #fff,
-		0 0 40px var(--banner-glow),
-		0 0 80px var(--banner-glow),
-		0 0 90px var(--banner-glow),
-		0 0 100px var(--banner-glow),
-		0 0 150px var(--banner-glow);
+		0 0 12px #fff,
+		0 0 21px #fff,
+		0 0 42px var(--banner-glow),
+		0 0 84px var(--banner-glow),
+		0 0 96px var(--banner-glow),
+		0 0 110px var(--banner-glow),
+		0 0 160px var(--banner-glow);
 	}
    0% {
 	  /* A slightly smaller blur radius */
 	  text-shadow:
-		0 0 4px #fff,
-		0 0 10px #fff,
-		0 0 18px #fff,
-		0 0 38px var(--banner-glow),
-		0 0 73px var(--banner-glow),
-		0 0 80px var(--banner-glow),
-		0 0 94px var(--banner-glow),
-		0 0 140px var(--banner-glow);
+		0 0 3px #fff,
+		0 0 9px #fff,
+		0 0 17px #fff,
+		0 0 36px var(--banner-glow),
+		0 0 70px var(--banner-glow),
+		0 0 76px var(--banner-glow),
+		0 0 90px var(--banner-glow),
+		0 0 130px var(--banner-glow);
 	}
   }
 
@@ -73,7 +73,7 @@
 
 .bigger-text {
 	font-size: 1.3em;
-	animation: pulsate 0.11s ease-in-out infinite alternate; 
+	animation: pulsate 0.8s ease-in-out infinite alternate; 
 }
 
 @media screen and (prefers-reduced-motion) { 

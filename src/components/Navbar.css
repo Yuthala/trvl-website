@@ -34,9 +34,27 @@
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    /* font-size: 2rem; */
     display: flex;
     align-items: center;
+}
+
+.navbar-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-wrapper img {
+    margin-right: 2vw;
+}
+
+.navbar-wrapper >h2 {
+    color: #6aee8d;
+    font-size: 1.5em;
+    cursor: pointer;
+    font-weight: 700;
+    width: 10vw;
 }
 
 .fa-typo3 {

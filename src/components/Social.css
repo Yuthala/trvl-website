@@ -1,0 +1,31 @@
+:root {
+    --primary: #fff;
+    --accent: #504842;
+    --tint: #AB3541;
+    --background: #B4C277;
+    --text-background: #F9FBE9;
+}
+
+.social-container {
+	height: 35vh;
+	background-color: var(--background);
+	display: flex;
+	justify-content: center;
+	gap: 5vw;
+	align-items: center;
+	color: var(--accent);
+}
+
+.social__wrapper h3 {
+	font-size: 2em;
+	color: var(--tint);
+}
+
+.social__list {
+	list-style-type: none;
+	line-height: 1.8em;
+}
+
+.social__icon, .social__img{
+	height: 20vh;
+}

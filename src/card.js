@@ -1,40 +1,40 @@
-import image9 from './images/img-9.jpg';
-import image2 from './images/img-2.jpg';
-import image3 from './images/img-3.jpg';
-import image4 from './images/img-4.jpg';
-import image8 from './images/img-8.jpg';
+import odn from './images/odn.jpg';
+import zubok from './images/garlic1.jpg';
+import shalot from './images/shalot.jpg';
+import redbaron from './images/redbaron.jpg';
+import bulb from './images/bulb.jpg';
 
 const cards = [
     {
         id: 1,
-        src: image9,
-        text: 'Explore the hidden waterfall deep inside  the Amazon jungle',
-        label: 'Adventure',
-        path: '/services'
+        src: odn,
+        text: 'однозубок чеснока',
+        label: 'чеснок',
+        path: '/products'
     },{
         id: 2,
-        src: image2,
-        text: 'Travel through the Islands of Bali in a Private Cruise',
-        label: 'Luxury',
-        path: '/services'
+        src: zubok,
+        text: 'чеснок первого года, выращенный из однозубка',
+        label: 'чеснок',
+        path: '/products'
     }, {
         id: 3,
-        src: image3,
-        text: 'Set Sail in the Atlantic Ocean visiting Uncharted Waters',
-        label: 'Mystery',
-        path: '/services'
+        src: shalot,
+        text: 'лук-шалот севок',
+        label: 'лук',
+        path: '/products'
     }, {
         id: 4,
-        src: image4,
-        text: 'Experience Football on Top of the Himilayan Mountains',
-        label: 'Adventure',
+        src: redbaron,
+        text: 'лук репчатый салатных сортов',
+        label: 'лук',
         path: '/products'
     }, {
         id: 5,
-        src: image8,
-        text: 'Ride through the Sahara Desert on a guided camel tour',
-        label: 'Adrenaline',
-        path: '/sign-up'
+        src: bulb,
+        text: 'бульбочка чеснока',
+        label: 'чеснок',
+        path: '/products'
     }
 ];
 

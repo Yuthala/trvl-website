@@ -31,7 +31,7 @@ function Cards() {
 
   return (
     <div className="cards">
-        <h1>Check out these EPIC Destinations!</h1>
+        <h2>Check out these EPIC Destinations!</h2>
         <div className="cards__container">
             <div className="cards__wrapper">
                 <ul className="cards__items">

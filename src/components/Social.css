@@ -7,13 +7,15 @@
 }
 
 .social-container {
-	height: 35vh;
+	height: 25vh;
 	background-color: var(--background);
 	display: flex;
 	justify-content: center;
 	gap: 5vw;
 	align-items: center;
 	color: var(--accent);
+	font-size: 1.2em;
+	font-weight: bold;
 }
 
 .social__wrapper h3 {
@@ -27,5 +29,5 @@
 }
 
 .social__icon, .social__img{
-	height: 20vh;
+	height: 15vh;
 }

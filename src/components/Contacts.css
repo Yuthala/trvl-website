@@ -1,0 +1,74 @@
+:root {
+    --primary: #fff;
+    --accent: #504842;
+    --tint: #AB3541;
+    --background: #B4C277;
+    --text-background: #F9FBE9;
+	--light-brown: #AD8945; 
+}
+
+.tg-bot__img, .contacts__img {
+	height: 15vh;
+	margin: 5vh 5vw;
+	cursor: pointer;
+}
+
+.contacts-container {
+	padding: 5vh 2vw;
+}
+
+.contacts__wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5vw;
+	padding: 5vh 0;
+}
+
+.contacts__header {
+	text-align: center;
+    color: var(--tint);
+	font-weight: bold;
+	font-size: 2.4em;
+	text-transform: uppercase;
+}
+
+.contacts-link, .contacts-mailto {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2vh;
+	padding: 20px;
+	font-size: 1.2em;
+}
+
+.contacts-link {
+	background-color: var(--text-background);
+}
+
+.mailto__wrapper >label {
+	font-size: 1em;
+	font-family: Lobster;
+	font-style: italic;
+	text-decoration: none;
+}
+
+.contacts-link >h4 {
+	color: var(--tint);
+	font-size: 1.5em;
+	font-family: Lobster;
+	font-style: italic;
+}
+
+.divider {
+	width: 2px;
+	height: 25vh;
+	border-right: 3px solid darkgrey;
+}
+
+.mailto__wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

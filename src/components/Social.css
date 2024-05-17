@@ -7,7 +7,6 @@
 }
 
 .social-container {
-	height: 25vh;
 	background-color: var(--background);
 	display: flex;
 	justify-content: center;
@@ -16,6 +15,7 @@
 	color: var(--accent);
 	font-size: 1.2em;
 	font-weight: bold;
+	padding: 5vh 0;
 }
 
 .social__wrapper h3 {

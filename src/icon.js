@@ -31,7 +31,7 @@ const icons = [
 	{
         id: 5,
         src: icon5,
-        label: 'отборный',
+        label: 'гарантия качества',
 		alt: 'selected'
     }, 
 ]

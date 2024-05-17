@@ -6,6 +6,7 @@ import Footer from '../Footer';
 import Adv from '../Adv';
 import Advantages from '../Advantages';
 import Social from '../Social';
+import Contacts from '../Contacts';
 
 function Home () {
     return (
@@ -15,6 +16,7 @@ function Home () {
             <Advantages />
             <Cards />
             <Social />
+            <Contacts />
             <Footer />
         </>
     )

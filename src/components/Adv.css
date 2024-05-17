@@ -37,13 +37,13 @@
   }
 
 .adv-container {
-	height: 25vh;
 	display: flex;
 	justify-content: center;
 	gap: 6vw;
 	align-items: center;
 	font-size: 1.3em;
 	background-color:#010a01;
+	padding: 4vh 0;
 }
 
 .banner {

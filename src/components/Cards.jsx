@@ -31,7 +31,7 @@ function Cards() {
 
   return (
     <div className="cards">
-        <h2>Культуры</h2>
+        <h2 className="cards__header">Культуры</h2>
         <div className="cards__container">
             <div className="cards__wrapper">
                 <ul className="cards__items">

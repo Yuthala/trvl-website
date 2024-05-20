@@ -6,9 +6,10 @@ import './Contacts.css';
 import email from '../images/icons/email.svg';
 import tg from '../images/icons/tg.svg';
 
+
 function Contacts() {
 	return (
-		<div className="contacts-container">
+		<div className="contacts-container" id="contacts">
 			<h2 className="contacts__header">Контакты</h2>
 			<div className='contacts__wrapper'>
 				<div className="contacts-link">

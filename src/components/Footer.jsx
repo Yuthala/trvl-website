@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Mailto from 'react-mailto.js';
 import QRcode from '../images/qrcode.png';
 import tg from '../images/icons/tg.svg';
+import logo from './../images/logo.png';
 
 
 function Footer() {
@@ -42,35 +43,24 @@ function Footer() {
 			        </Link>
                 </div>
             </div>
-
         </div>
+
+        <section className="disclaimer">
+            <div className="divider-hor"></div>
+            <p>Данный сайт носит информационный характер.<br/> Материалы и цены,
+				размещенные на сайте, не являются публичной офертой.</p><br/>
+            <p>Green Pato не собирает, не хранит и не обрабатывает персональные данные посетителей сайта.</p>
+        </section>
+
+
         <section className="social-media">
-            <div className="social-media-wrap">
-                <div className="footer-logo">
                     <Link to="/" className="social-logo">
-                        TRVL <i className="fab fa-typo3"></i>
+                        <img src={logo} width={90} alt="logo"/> 
                     </Link>
-                </div>
-                <small className="website-rights">TRVL © 2020</small>
-                <div className="social-icons">
-                    <Link 
-                        to="/" 
-                        target="_blank" 
-                        aria-label="Facebook" 
-                        className="social-icon-link facebook"
-                    >
-                        <i className="fab fa-facebook-f"></i>
+                    <Link to="/" className="social-logo">
+                        GREEN PATO
                     </Link>
-                    <Link 
-                        to="/" 
-                        target="_blank" 
-                        aria-label="Instagram" 
-                        className="social-icon-link instagram"
-                    >
-                        <i className="fab fa-instagram"></i>
-                    </Link>
-                </div>
-            </div>
+                <small className="website-rights">Green Pato © 2024</small>
         </section>
     </div>
   )

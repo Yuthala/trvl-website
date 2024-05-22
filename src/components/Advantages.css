@@ -4,6 +4,7 @@
     --tint: #AB3541;
     --background: #B4C277;
     --text-background: #F9FBE9;
+	--backg: #c4e3f1;
 }
 
 .icons {
@@ -11,7 +12,7 @@
 	padding: 8vh 0;
 }
 
-.icons h2 {
+.icons >h2 {
 	text-align: center;
 	color: var(--tint);
 	font-weight: bold;

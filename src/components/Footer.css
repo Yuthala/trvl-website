@@ -10,7 +10,7 @@
 
 .footer-links {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1120px;
     display: flex;
     justify-content: center;
 }
@@ -35,9 +35,10 @@
     align-items: center;
 }
 
-.footer-link-items>h2 {
+.footer-link-items >h2 {
     color: var(--tint);
     margin-bottom: 16px;
+    font-size: 1.4em;
 }
 
 .footer-link-items a {
@@ -52,12 +53,8 @@
 }
 
 .footer-link-items img {
-    height: 7vh;
+    height: 5vh;
     margin: 1vh 0;
-}
-
-.footer-email-form h2 {
-    margin-bottom: 2rem;
 }
 
 .footer-input::placeholder {

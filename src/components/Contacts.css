@@ -7,11 +7,7 @@
 	--light-brown: #AD8945; 
 }
 
-.tg-bot__img, .contacts__img {
-	height: 15vh;
-	margin: 5vh 5vw;
-	cursor: pointer;
-}
+
 
 .contacts-container {
 	padding: 5vh 2vw;
@@ -31,6 +27,12 @@
 	font-weight: bold;
 	font-size: 2.4em;
 	text-transform: uppercase;
+}
+
+.tg-bot__img, .contacts__img {
+	height: 15vh;
+	margin: 5vh 5vw;
+	cursor: pointer;
 }
 
 .contacts-link, .contacts-mailto {

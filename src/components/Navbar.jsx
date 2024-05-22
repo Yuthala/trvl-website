@@ -44,7 +44,6 @@ function Navbar() {
                     <div className="navbar-wrapper">
                         <img src={logo} width={90} alt="logo"/>
                         <h2>green pato</h2>
-                        {/* <i className="fab fa-typo3"></i> */}
                     </div>
 
                 </Link>
@@ -59,20 +58,20 @@ function Navbar() {
                     </li>
 
                     <li className="nav-item">
-                        <Link to="/products" className="nav-links" onClick={closeMobileMenu}>
+                        <Link to="/services" className="nav-links" onClick={closeMobileMenu}>
                             Доставка и Оплата
                         </Link>
                     </li>
 
                     <li className="nav-item">
-                        <Link to="services/" className="nav-links" onClick={closeMobileMenu}>
+                        <Link to="/products" className="nav-links" onClick={closeMobileMenu}>
                             Культуры
                         </Link>
                     </li>
 
                     <li className="nav-item">
                         <Link 
-                            to="/sign-up" className="nav-links-mobile" onClick={closeMobileMenu}>
+                            to="/order" className="nav-links-mobile" onClick={closeMobileMenu}>
                             Заказать
                         </Link>
                     </li>

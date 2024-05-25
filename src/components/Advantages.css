@@ -44,3 +44,12 @@
 	color: var(--tint);
 	font-size: 1em;
 }
+
+@media screen and (max-width: 630px) {
+	.icon__container {
+		flex-direction: column;
+	}
+	.icon__item__img {
+		height: 60px;
+	}
+}

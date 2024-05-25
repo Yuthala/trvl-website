@@ -64,8 +64,7 @@
 
 @media screen and (max-width: 768px) {
     .hero-container > h1 {
-        font-size: 36px;
-        margin-top: -100px;
+        font-size: 32px;
     }
     .hero-container > p {
         font-size: 22px;
@@ -76,5 +75,17 @@
     }
     .btn {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .hero-container > h1 {
+        font-size: 28px;
+        text-align: center;
+        margin-top: 10vh;
+    }
+    .hero-container > p {
+        font-size: 18px;
+        text-align: center;
     }
 }

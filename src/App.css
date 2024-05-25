@@ -49,7 +49,7 @@ h2 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: var(--primary);
   font-size: 100px;
 }
 
@@ -67,3 +67,12 @@ h2 {
 	font-size: 56px;
   margin-top: 10vh;
 } */
+
+/*MEDIA*/
+
+@media screen and (max-width: 960px) {
+  body{
+    font-size: .8em;
+  }
+
+}

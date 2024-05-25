@@ -85,6 +85,11 @@
     margin-top: 5vh;
 }
 
+.social-media >a {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
 .social-logo {
     color: #6aee8d;
     cursor: pointer;

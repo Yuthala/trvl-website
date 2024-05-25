@@ -25,12 +25,10 @@ function Contacts() {
 
 				<div className="contacts-mailto">
 					<p>или напишите нам по электронной почте</p>
-					<Mailto to='sales@greenpato.ru'>
-						<div className="mailto__wrapper">
-							<label>sales@greenpato.ru</label>
-							<img className="contacts__img" src={email} alt='email'/>
-						</div>
-					</Mailto>
+						<Mailto to='sales@greenpato.ru' className="mailto__wrapper">
+								<label>sales@greenpato.ru</label>
+								<img className="contacts__img" src={email} alt='email'/>
+						</Mailto>
 				</div>
 			</div>
 

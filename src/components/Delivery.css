@@ -25,7 +25,8 @@
 }
 
 .delivery__item__img {
-	height: 20vh;
+	width: 20vw;
+	object-fit: contain;
 }
 
 .delivery >h2 {

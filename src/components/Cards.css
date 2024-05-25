@@ -129,3 +129,9 @@
         margin-bottom: 2rem;
     }
 }
+
+@media only screen and (min-width: 768px) {
+    .cards {
+        padding-bottom: 0;
+    }
+}

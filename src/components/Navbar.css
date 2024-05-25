@@ -44,7 +44,7 @@
 
 .navbar-wrapper >h2 {
     color: #6aee8d;
-    font-size: 1.2em;
+    font-size: 1em;
     cursor: pointer;
     font-weight: 700;
     width: 10vw;
@@ -128,11 +128,12 @@
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 1;
+        padding-bottom: 10vh;
     }
 
     .nav-links {
         text-align: center;
-        padding: 2rem;
+        padding: 1.8em;
         width: 100%;
         display: table;
     }
@@ -173,7 +174,7 @@
         width: 80%;
         text-decoration: none;
         font-size: 1.5rem;
-        background-color: transparent;
+        background-color: var(--tint);
         color: #fff;
         padding: 14px 20px;
         border: 1px solid #fff;

@@ -71,7 +71,7 @@ function Navbar() {
                     <li className="nav-item">
                         <Link 
                             to="/order" className="nav-links-mobile" onClick={closeMobileMenu}>
-                            Заказать
+                            ЗАКАЗАТЬ
                         </Link>
                     </li>
                 </ul>

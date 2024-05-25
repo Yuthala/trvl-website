@@ -6,6 +6,7 @@ import Adv from '../Adv';
 import Advantages from '../Advantages';
 import Social from '../Social';
 import Contacts from '../Contacts';
+import Delivery from '../Delivery';
 
 function Home () {
     return (
@@ -14,6 +15,7 @@ function Home () {
             <Adv />
             <Advantages />
             <Cards />
+            <Delivery />
             <Social />
             <Contacts />
         </>

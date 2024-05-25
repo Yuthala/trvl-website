@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/pages/Home';
-import Services from './components/pages/Services';
-import Products from './components/pages/Products';
+import Garlic from './components/pages/Garlic';
+import Onion from './components/pages/Onion';
 import Order from './components/pages/Order';
 
 function App() {
@@ -15,8 +15,8 @@ function App() {
         <Navbar />
           <Routes>
             <Route path='/' exact element={<Home />}/>
-            <Route path='/services' element={<Services />}/>
-            <Route path='/products' element={<Products />}/>
+            <Route path='/garlic' element={<Garlic />}/>
+            <Route path='/onion' element={<Onion />}/>
             <Route path='/order' element={<Order />}/>
           </Routes>
         <Footer />

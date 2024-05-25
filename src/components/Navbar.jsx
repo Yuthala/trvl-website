@@ -58,14 +58,14 @@ function Navbar() {
                     </li>
 
                     <li className="nav-item">
-                        <Link to="/services" className="nav-links" onClick={closeMobileMenu}>
-                            Доставка и Оплата
+                        <Link to="/garlic" className="nav-links" onClick={closeMobileMenu}>
+                        Чеснок
                         </Link>
                     </li>
 
                     <li className="nav-item">
-                        <Link to="/products" className="nav-links" onClick={closeMobileMenu}>
-                            Культуры
+                        <Link to="/onion" className="nav-links" onClick={closeMobileMenu}>
+                            Лук
                         </Link>
                     </li>
 

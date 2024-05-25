@@ -1,4 +1,12 @@
 
+:root {
+  --primary: #fff;
+  --accent: #504842;
+  --tint: #AB3541;
+  --background: #B4C277;
+  --text-background: #F9FBE9;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -26,7 +34,7 @@ h2 {
   font-size: 1em;
 }
 
-
+/* 
 .products {
   background-image: url('./images/img-1.jpg');
   background-position: center;
@@ -34,7 +42,7 @@ h2 {
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
-}
+} */
 
 .order {
   background-image: url('./images/img-8.jpg');
@@ -45,8 +53,8 @@ h2 {
   font-size: 100px;
 }
 
-/*SERVICES*/
-.services {
+/* GARLIC */
+/*.services {
   background-image: url('./images/delivery.svg');
   background-position: center;
   background-size: 50vw;
@@ -58,4 +66,4 @@ h2 {
 .delivery >h2, .payment >h2 {
 	font-size: 56px;
   margin-top: 10vh;
-}
+} */

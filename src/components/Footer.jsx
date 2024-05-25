@@ -27,10 +27,9 @@ function Footer() {
 
                 <div className="footer-link-items">
                     <h2>Культуры</h2>
-                    <Link to='/products'>Озимый чеснок</Link>
-                    <Link to='/products'>Лук шалот</Link>
-                    <Link to='/products'>Лук салатный</Link>
-                    <Link to='/products'>Гладиолусы</Link>
+                    <Link to='/garlic'>Озимый чеснок</Link>
+                    <Link to='/onion'>Лук шалот</Link>
+                    <Link to='/onion'>Лук репчатый</Link>
                 </div>
 
                 <div className="footer-link-items">

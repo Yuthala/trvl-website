@@ -8,22 +8,22 @@ const delivery = [
 		id: 1,
         src: post,
 		alt: 'russian-post', 
-		label: 'Почта России'
+		label: ''
 	}, {
 		id: 2,
         src: cdek,
 		alt: 'cdek',
-		label: 'СДЭК'
+		label: ''
 	}, {
 		id: 3,
         src: boxberry,
 		alt: 'boxberry',
-		label: 'Боксберри'
+		label: ''
 	}, {
 		id: 4,
         src: dellin,
 		alt: 'delovye-linii', 
-		label: 'Деловые линии (для грузов свыше 20 кг'
+		label: '*только для грузов свыше 20 кг'
 	}
 ]
 

@@ -8,7 +8,7 @@ import QRcode from '../images/qrcode.png';
 function Social() {
 	return (
 		<div className="social-container">
-			<img src={icon6} alt='VK-logo' className="social__icon"/>
+
 			<div className="social__wrapper">
 				<h3>Подпишись на наше сообщество ВКонтакте</h3>
 				<ul className="social__list">
@@ -20,10 +20,12 @@ function Social() {
 				</ul>
 			</div>
 
-			<Link to='https://vk.com/fermatikh' target="_blank">
-				<img src={QRcode} alt='VK_community' className="social__img"/>
-			</Link>
-
+			<div className="social__icon-wrapper">
+				<img src={icon6} alt='VK-logo' className="social__icon"/>
+				<Link to='https://vk.com/fermatikh' target="_blank">
+					<img src={QRcode} alt='VK_community' className="social__img"/>
+				</Link>
+			</div>
 		</div>
 	)
 }

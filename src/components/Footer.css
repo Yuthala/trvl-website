@@ -32,6 +32,7 @@
 
 .footer-link-items:last-child {
     align-items: center;
+    gap: 1vh;
 }
 
 .footer-link-items >h2 {
@@ -52,7 +53,7 @@
 }
 
 .footer-link-items img {
-    height: 7vh;
+    height: 5vh;
     margin: 1vh 0;
 }
 
@@ -71,7 +72,7 @@
     width: 15%;
     height: 1px;
     border-bottom: 1px solid var(--primary);
-    margin: 3vh auto;
+    margin: 1vh auto 3vh;
 }
 
 /* Social Icons */

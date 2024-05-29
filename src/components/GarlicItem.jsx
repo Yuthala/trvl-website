@@ -12,17 +12,19 @@ export function GarlicType ({id, src, alt, label}) {
 }
 
 export function GarlicSort({id, src, alt, label, item, text1, text2}) {
-	<>
-		 <li className="garlic__sort-item">
-                <figure className="garlic__sort-wrap" data-category={label}>
-                    <img src={src} alt={alt} id={id}/>
-                </figure>
-				
-                <div className="garlic__sort-info">
-                    <h5>{item}</h5>
-					<p>Особенности сорта: {text1}</p>
-					<p>Описание головки: {text2}</p>
-                </div>
-        </li>
-	</>
+	return (
+		<>
+			<li className="garlic__sort-item">
+			   <figure className="garlic__sort-wrap" data-category={label}>
+				   <img src={src} alt={alt} id={id}/>
+			   </figure>
+
+			   <div className="garlic__sort-info">
+				   <h5>{item}</h5>
+				   <p><span className="garlic-bold">Особенности сорта:   </span> {text1}</p>
+				   <p><span className="garlic-bold">Описание головки:    </span>{text2}</p>
+			   </div>
+	   		</li>
+   		</>
+	)
 }

@@ -12,6 +12,7 @@
   margin: 0;
   padding: 0;
   font-family: "Bitter", sans-serif;
+  line-height: 1.5em;
 }
 
 h2 {
@@ -21,9 +22,20 @@ h2 {
 	text-transform: uppercase;
 }
 
+.content {
+  margin: 0 auto;
+  margin-top: 10vh;
+  padding: 3vh 5vw;
+}
+
+.content >h2 {
+  font-size: 3em;
+  margin: 12vh 0 5vh;
+}
+
 /*PAGES*/
 .home,
-.garlic,
+.garlic-header,
 .onion,
 .order{
   display: flex;
@@ -54,21 +66,121 @@ h2 {
 }
 
 /* GARLIC */
-.garlic{
+.garlic-header{
   background-image: url('./images/garlic/garlic-bckg.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: var(--accent);
-  font-size: .8em;
 }
 
-.garlic >h1 {
-  font-size: 10em;
+.garlic-header>h1 {
+  font-size: 8em;
   text-transform: uppercase;
   color: var(--primary);
   margin-top: 30vh;
 }
+
+.garlic-assort {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4vw;
+  margin: 5vh 0;
+}
+
+.garlic__type-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh 2vw;
+}
+
+.garlic__type-item img {
+  height: 20vh;
+  object-fit: contain;
+  margin-bottom: 4vh;
+  border-radius: 10px;
+}
+
+.garlic__type-item h5 {
+  color: var(--accent);
+  font-size: 1.2em;
+}
+
+.garlic-sorts {
+  display: grid;
+  grid-template-rows: repeat(2, 60vh);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2vh 3vw;
+}
+
+.coming {
+  opacity: .6 ;
+}
+
+.garlic__sort-item {
+  list-style-type: none;
+  background-color: var(--background);
+  border-radius: 12px;
+  padding: 20px;
+  color: var(--accent);
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+}
+
+.garlic__sort-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.garlic__sort-wrap img {
+  height: 20vh;
+  border-radius: 50%;
+}
+
+.garlic__sort-wrap {
+  position: relative;
+}
+
+.garlic__sort-wrap::after {
+  content: attr(data-category);
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 10px;
+  padding: 6px 8px;
+  max-width: calc((100%) - 60px);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--primary);
+  background-color: var(--tint);
+  box-sizing: border-box;
+  z-index: 3;
+}
+
+.garlic__sort-info >h5 {
+  color: var(--tint);
+  font-size: 1.6em;
+  text-transform: uppercase;
+  margin: 3vh 0;
+  font-family: Lobster;
+  font-style: italic;
+}
+
+.garlic__sort-info >p {
+  line-height: 1.6em;
+  font-size: 1.1em;
+}
+
+.garlic-bold {
+  color: var(--primary);
+  font-weight: bold;
+}
+
 
 /*MEDIA*/
 

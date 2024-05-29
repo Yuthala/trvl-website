@@ -19,17 +19,39 @@ export const assort = [
 		id: 1,
 		src: zubok,
 		alt: 'zubok',
-		label: 'головка первой репродукции'
+		label: 'головка первой репродукции',
+		priceA: '400 р.',
+		priceB: '350 р.',
+		priceC: '200 р.',
+		sizeA: '(калибр 5+)',
+		sizeB: '(калибр 4-5 см)',
+		sizeC: '(калибр 3-4 см)',
+		measurement: '1 кг'
+
 	}, {
 		id: 2,
 		src: odn,
 		alt: 'odnozubok',
-		label: 'однозубок'
+		label: 'однозубок',
+		priceA: '500 р.',
+		priceB: '400 р.',
+		priceC: '250 р.',
+		sizeA: '(диаметр 12 мм+)',
+		sizeB: '(диаметр 10-11 мм)',
+		sizeC: '(диаметр 8-9 мм)',
+		measurement: '1 кг'
 	}, {
 		id: 3,
 		src: bulb,
 		alt: 'bulb',
-		label: 'воздушная бульбочка'
+		label: 'воздушная бульбочка',
+		priceA: '150 р.',
+		priceB: '100 р.',
+		priceC: '50 р.',
+		sizeA: '(диаметр 6 мм+)',
+		sizeB: '(диаметр 5-6 мм)',
+		sizeC: '(диаметр 3-4 мм)',
+		measurement: '100 г'
 	}
 ];
 

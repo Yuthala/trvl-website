@@ -181,6 +181,23 @@ h2 {
   font-weight: bold;
 }
 
+.garlic-price {
+  margin-top: 7vh;
+}
+
+.garlic-price >h4 {
+  color: var(--tint);
+  margin-bottom: 2vh;
+  font-size: 1.4em;
+}
+
+.garlic-price >p {
+  line-height: 2em;
+}
+
+.garlic__scheme {
+  height: 40vh;
+}
 
 /*MEDIA*/
 

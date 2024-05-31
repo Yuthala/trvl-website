@@ -22,6 +22,11 @@ h2 {
 	text-transform: uppercase;
 }
 
+.divider {
+	width: 2px;
+	height: 25vh;
+	border-right: 3px solid darkgrey;
+}
 .content {
   margin: 0 auto;
   margin-top: 10vh;
@@ -230,7 +235,7 @@ h2 {
 /* некоторые css свойства в разделе Garlic*/
 
 .onion-header {
-  background-image: url('./images/onion/onion-bckg.jpeg');
+  background-image: url('./images/onion/onion-bckg.jpg');
 }
 
 /*MEDIA*/

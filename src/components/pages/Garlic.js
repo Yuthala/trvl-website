@@ -5,7 +5,7 @@ import {assort, sorts} from '../../garlic';
 import scheme1 from '../../images/garlic/scheme1.jpeg';
 import scheme2 from '../../images/garlic/scheme2.jpeg';
 
-export default function Garlic({src}) {
+export default function Garlic() {
     const Type= assort.map(item => 
         <GarlicType
             src={item.src}

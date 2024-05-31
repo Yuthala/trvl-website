@@ -33,10 +33,15 @@ h2 {
   margin: 12vh 0 5vh;
 }
 
+.scheme {
+  height: 50vh;
+  margin: 3vh 0;
+}
+
 /*PAGES*/
 .home,
 .garlic-header,
-.onion,
+.onion-header,
 .order{
   display: flex;
   flex-direction: column;
@@ -66,15 +71,18 @@ h2 {
 }
 
 /* GARLIC */
-.garlic-header{
-  background-image: url('./images/garlic/garlic-bckg.jpg');
+.garlic-header, .onion-header{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: var(--accent);
 }
 
-.garlic-header>h1 {
+.garlic-header {
+  background-image: url('./images/garlic/garlic-bckg.jpg');
+}
+
+.garlic-header>h1, .onion-header >h1 {
   font-size: 5em;
   text-transform: uppercase;
   color: var(--primary);
@@ -140,11 +148,6 @@ h2 {
 
 .garlic-cat {
   margin-top: 20px;
-}
-
-.garlic__scheme {
-  height: 50vh;
-  margin: 3vh 0;
 }
 
 .garlic-bold {
@@ -221,6 +224,13 @@ h2 {
 .garlic__sort-info >p {
   line-height: 1.6em;
   font-size: 1.1em;
+}
+
+/*ONION*/
+/* некоторые css свойства в разделе Garlic*/
+
+.onion-header {
+  background-image: url('./images/onion/onion-bckg.jpeg');
 }
 
 /*MEDIA*/

@@ -70,8 +70,8 @@ export default function Garlic({src}) {
                     Яровой чеснок сажают весной, сразу после схода снега.</p>
                     <p>Сушествует несколько схем посадки, ниже приведены самые простые. Перед посадкой необходимо обработать посевной материал фунгицидным препаратом - Максим, Престиж, Табу или 2%-ный раствор марганцовки.</p>
                     <div className="garlic__scheme-wrapper">
-                        <img src={scheme1} alt="scheme" className="garlic__scheme"/>
-                        <img src={scheme2} alt="scheme" className="garlic__scheme"/>
+                        <img src={scheme1} alt="scheme" className="scheme"/>
+                        <img src={scheme2} alt="scheme" className="scheme"/>
                     </div>
 
                     <h3>Правила ухода</h3>

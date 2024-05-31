@@ -29,7 +29,7 @@ h2 {
 }
 
 .content >h2 {
-  font-size: 3em;
+  font-size: 2.4em;
   margin: 12vh 0 5vh;
 }
 
@@ -75,7 +75,7 @@ h2 {
 }
 
 .garlic-header>h1 {
-  font-size: 8em;
+  font-size: 5em;
   text-transform: uppercase;
   color: var(--primary);
   margin-top: 30vh;
@@ -83,17 +83,18 @@ h2 {
 
 .garlic-assort {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
-  gap: 4vw;
+  gap: 2vw;
   margin: 5vh 0;
 }
 
 .garlic__type-item {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 30%;
   margin: 2vh 2vw;
 }
 
@@ -106,18 +107,63 @@ h2 {
 
 .garlic__type-item h5 {
   color: var(--accent);
+  font-size: 1em;
+  text-align: center;
+}
+
+.garlic__type-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.garlic-price {
+  margin-top: 7vh;
+}
+
+.garlic-price >h4 {
+  color: var(--tint);
+  margin-bottom: 2vh;
+  font-size: 1.1em;
+}
+
+.garlic-price >p {
+  line-height: 1.4em;
+  font-size: 1em;
+}
+
+
+.garlic-price >p.garlic-size {
+  font-size: .8em;
+}
+
+.garlic-cat {
+  margin-top: 20px;
+}
+
+.garlic__scheme {
+  height: 50vh;
+  margin: 3vh 0;
+}
+
+.garlic-bold {
   font-size: 1.2em;
+  color: var(--accent);
+  line-height: 2em;
+  font-weight: bold;
 }
 
 .garlic-sorts {
   display: grid;
-  grid-template-rows: repeat(2, 60vh);
+  grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(2, 1fr);
   gap: 2vh 3vw;
 }
 
 .coming {
-  opacity: .6 ;
+  opacity: .6;
+  margin-bottom: 10vh;
 }
 
 .garlic__sort-item {
@@ -125,6 +171,7 @@ h2 {
   background-color: var(--background);
   border-radius: 12px;
   padding: 20px;
+  font-size: .9em;
   color: var(--accent);
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
@@ -176,29 +223,6 @@ h2 {
   font-size: 1.1em;
 }
 
-.garlic-bold {
-  color: var(--primary);
-  font-weight: bold;
-}
-
-.garlic-price {
-  margin-top: 7vh;
-}
-
-.garlic-price >h4 {
-  color: var(--tint);
-  margin-bottom: 2vh;
-  font-size: 1.4em;
-}
-
-.garlic-price >p {
-  line-height: 2em;
-}
-
-.garlic__scheme {
-  height: 40vh;
-}
-
 /*MEDIA*/
 
 @media screen and (max-width: 960px) {
@@ -211,6 +235,23 @@ h2 {
   body{
     font-size: .7em;
   }
+
+}
+
+@media screen and (max-width: 620px) {
+  .garlic__sort-item {
+    padding: 10px;
+  }
+  .garlic-header>h1 {
+    font-size: 4em;
+  }
+  .garlic__type-item {
+    margin: 0;
+  }
+  .garlic__type-item img {
+    height: 15vh;
+  }
+  
 }
 
 

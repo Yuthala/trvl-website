@@ -4,14 +4,19 @@ export function GarlicType ({id, src, alt, label, priceA, priceB, priceC, sizeA,
 	return (
 		<>
 		 <div className="garlic__type-item">
-			<img src={src} alt={alt} id={id}/>
-			<h5>{label}</h5>
-			
+			<div className="garlic__type-img">
+				<img src={src} alt={alt} id={id}/>
+				<h5>{label}</h5>
+			</div>
+
 			<div className="garlic-price">
 				<h4>Цена за {measurement}</h4>
-				<p>Категория А {sizeA}: {priceA}</p>
-				<p>Категория Б {sizeB}: {priceB}</p>
-				<p>Категория В {sizeC}: {priceC}</p>
+				<p className="garlic-cat">Категория А:  {priceA}</p>
+				<p className="garlic-size">{sizeA}</p>
+				<p className="garlic-cat">Категория Б:  {priceB}</p>
+				<p  className="garlic-size">{sizeB}</p>
+				<p className="garlic-cat">Категория В:  {priceC}</p>
+				<p  className="garlic-size">{sizeC}</p>
 			</div>
 		  </div>
 		</>

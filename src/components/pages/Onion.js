@@ -1,11 +1,30 @@
 import React from 'react';
 import '../../App.css';
+import {assort, sorts} from '../../onion';
+import {OnionType, OnionSort} from '../OnionItem';
 import scheme3 from '../../images/onion/scheme3.jpeg';
 import scheme4 from '../../images/onion/scheme4.jpeg';
 import scheme5 from '../../images/onion/scheme5.jpeg';
 
 
 export default function Onion() {
+   
+    const TypeShalot = assort.slice(0, 2).map(item => 
+        <OnionType 
+        src={item.src}
+        alt={item.alt}
+        label={item.label}
+        key={item.id}
+        />
+    );
+    const TypeRep = assort.slice(2, 4).map(item => 
+        <OnionType
+        src={item.src}
+        alt={item.alt}
+        label={item.label}
+        key={item.id}
+        />
+    )
 
     return (
         <div className="onion">
@@ -34,16 +53,20 @@ export default function Onion() {
                     <h2>Ассортимент</h2>
                     <p></p>
                     <div className="onion-assort">
-                        <h3>Лук-шалот</h3>
-                        <div className="onion-assort-shalot">
-                            {/* {Type} */}
+                        <div>
+                            <h3>Лук-шалот</h3>
+                            <div className="onion-assort-shalot">
+                                {TypeShalot}
+                            </div>
                         </div>
 
                         <div className="divider"></div>
 
-                        <h3>Лук репчатый</h3>
-                        <div className="onion-assort-rep">
-                            {/* {Type} */}
+                        <div>
+                            <h3>Лук репчатый</h3>
+                            <div className="onion-assort-rep">
+                                {TypeRep}
+                            </div>
                         </div>
                     </div>
                    

@@ -5,7 +5,7 @@ import onionRedBaron from './images/onion/onion-redbaron.jpg';
 
 //сорта лук-шалот
 import zolotinka from './images/onion/zolotinka.jpg';
-import kwochka from './images/onion/kwochka.jpg';
+import kwochka from './images/onion/kwochka.webp';
 import rose from './images/onion/izumrud.jpg';
 import banan from './images/onion/banan.png';
 import karmen from './images/onion/karmen.jpeg';

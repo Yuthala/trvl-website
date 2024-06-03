@@ -94,7 +94,7 @@ h2 {
   margin-top: 30vh;
 }
 
-.garlic-assort {
+.garlic-assort, .onion-assort {
   display: flex;
   align-items: stretch;
   justify-content: center;
@@ -102,7 +102,7 @@ h2 {
   margin: 5vh 0;
 }
 
-.garlic__type-item {
+.garlic__type-item, .onion__type-item{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -111,14 +111,14 @@ h2 {
   margin: 2vh 2vw;
 }
 
-.garlic__type-item img {
+.garlic__type-item img, .onion__type-item img {
   height: 20vh;
   object-fit: contain;
   margin-bottom: 4vh;
   border-radius: 10px;
 }
 
-.garlic__type-item h5 {
+.garlic__type-item h5, .onion__type-item h5 {
   color: var(--accent);
   font-size: 1em;
   text-align: center;
@@ -237,6 +237,24 @@ h2 {
 .onion-header {
   background-image: url('./images/onion/onion-bckg.jpg');
 }
+
+.onion-assort h3 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: var(--tint);
+  text-align: center;
+}
+
+.onion-assort .divider {
+  height: 35vh;
+}
+
+.onion-assort-shalot, .onion-assort-rep {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
 
 /*MEDIA*/
 

@@ -24,7 +24,33 @@ export default function Onion() {
         label={item.label}
         key={item.id}
         />
-    )
+    );
+
+    const SortShalot = sorts.slice(0, 4).map(i =>
+        <OnionSort
+        src={i.src}
+        alt={i.alt}
+        key={i.id}
+        label={i.label}
+        item={i.item}
+        text={i.text}
+        priceA={i.priceA}
+        priceB={i.priceB}
+        />
+    );
+
+    const SortRep = sorts.slice(4, 9).map(i =>
+        <OnionSort
+        src={i.src}
+        alt={i.alt}
+        key={i.id}
+        label={i.label}
+        item={i.item}
+        text={i.text}
+        priceA={i.priceA}
+        priceB={i.priceB}
+        />
+    );
 
     return (
         <div className="onion">
@@ -73,12 +99,12 @@ export default function Onion() {
 
                     <h2>лук-шалот сорта</h2>
                     <div className="onion-sorts">
-                        {/* {SortFirst} */}
+                        {SortShalot}
                     </div>
 
                     <h2>лук репчатый сорта</h2>
                     <div className="onion-sorts">
-                        {/* {SortFirst} */}
+                        {SortRep}
                     </div>
                 </section>
         </div>

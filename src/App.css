@@ -155,14 +155,14 @@ h2 {
   margin-top: 20px;
 }
 
-.garlic-bold {
+.garlic-bold, .onion-bold {
   font-size: 1.2em;
   color: var(--accent);
   line-height: 2em;
   font-weight: bold;
 }
 
-.garlic-sorts {
+.garlic-sorts, .onion-sorts {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(2, 1fr);
@@ -174,7 +174,7 @@ h2 {
   margin-bottom: 10vh;
 }
 
-.garlic__sort-item {
+.garlic__sort-item, .onion__sort-item{
   list-style-type: none;
   background-color: var(--background);
   border-radius: 12px;
@@ -186,7 +186,7 @@ h2 {
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
 }
 
-.garlic__sort-wrap {
+.garlic__sort-wrap, .onion__sort-wrap {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -217,7 +217,7 @@ h2 {
   z-index: 3;
 }
 
-.garlic__sort-info >h5 {
+.garlic__sort-info >h5, .onion__sort-info >h5{
   color: var(--tint);
   font-size: 1.6em;
   text-transform: uppercase;
@@ -254,6 +254,7 @@ h2 {
   align-items: stretch;
   justify-content: center;
 }
+
 
 
 /*MEDIA*/

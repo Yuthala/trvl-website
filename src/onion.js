@@ -1,11 +1,12 @@
 //for assort
 import sevokShalot from './images/onion/onion-sevok.jpeg';
 import onionSeeds from './images/onion/onion-seeds.jpg';
+import onionSeeds2 from './images/onion/onion-seeds2.jpg';
 import onionRedBaron from './images/onion/onion-redbaron.jpg';
 
 //сорта лук-шалот
 import zolotinka from './images/onion/zolotinka.jpg';
-import kwochka from './images/onion/kwochka.webp';
+import kwochka from './images/onion/kwochka.jpg';
 import rose from './images/onion/izumrud.jpg';
 import banan from './images/onion/banan.png';
 import karmen from './images/onion/karmen.jpeg';
@@ -33,7 +34,7 @@ export const assort = [
 		label: 'лук репчатый севок'
 	}, {
 		id: 4,
-		src: onionSeeds,
+		src: onionSeeds2,
 		alt: 'onion-seeds',
 		label: 'лук репчатый семена'
 	}
@@ -47,8 +48,8 @@ export const sorts = [
 		label: 'шалот',
 		item: 'Золотистый',
 		text: 'Средне-ранний сорт (вегетационный период 90 дней), внешние чешуи яркого золотистого цвета. Луковицы небольшие 20-30 г, 6-10 штук в гнезде.',
-		measurement: '1 кг',
-		price: '1400 р.'
+		priceA: '1400 р.',
+		priceB: '200 р.'
 	}, {
 		id: 2,
 		src: kwochka,
@@ -56,8 +57,8 @@ export const sorts = [
 		label: 'шалот',
 		item: 'Квочка',
 		text: 'Урожайный сорт с большими "гнездами" до 15 луковиц. Луковицы крупные до 100 г (в основной массе 60 г). Бело-розовые сочные чешуи со сладко-острым вкусом. Старинный кубанский сорт - устойчив к нехватке влаги.',
-		measurement: '1 кг',
-		price: '1400 р.'
+		priceA: '1400 р.',
+		priceB: 'временно нет в продаже'
 	}, {
 		id: 3,
 		src: rose,
@@ -65,8 +66,8 @@ export const sorts = [
 		label: 'шалот',
 		item: 'Розовый',
 		text: 'Ранний сорт (вегетационный период 75 дней). Луковицы крупные до 100 г, 5-10 штук в гнезде. Дает хорошее мощное перо.',
-		measurement: '1 кг',
-		price: '1400 р.'
+		priceA: '1400 р.',
+		priceB: '200 р.'
 	}, {
 		id: 4,
 		src: banan,
@@ -74,8 +75,8 @@ export const sorts = [
 		label: 'шалот',
 		item: 'Банановый',
 		text: 'Красивые луковицы овально-вытянутой формы до 10 см в длину, довольно крупные (до 100 г). Классический сорт французской кухни. Раннеспелый, высокоурожайный.',
-		measurement: '1 кг',
-		price: '1800 р.'
+		priceA: '1800 р.',
+		priceB: '250 р.'
 	}, {
 		id: 5,
 		src: karmen,
@@ -83,8 +84,8 @@ export const sorts = [
 		label: 'салатный',
 		item: 'Кармен',
 		text: 'Ранний сорт (вегетационный период 60 дней). Луковица красивого фиолетового цвета, внутри белая с фиолетовыми прослойками. Лук салатного назначения, для употребления в сыром виде, вкус остро-сладкий.',
-		measurement: '1 кг',
-		price: '1200 р.'
+		priceA: '1200 р.',
+		priceB: '150 р.'
 	}, {
 		id: 6,
 		src: redbaron,
@@ -92,8 +93,8 @@ export const sorts = [
 		label: 'салатный',
 		item: 'Ред Барон',
 		text: 'Один из самых лежких сортов салатного лука. Луковица красивого фиолетово-красного цвета, среднего размера. Лук салатного назначения, для употребления в сыром виде, вкус острый с оттенком сладкого.',
-		measurement: '1 кг',
-		price: '1200 р.'
+		priceA: '1200 р.',
+		priceB: '150 р.'
 	}, {
 		id: 7,
 		src: stardust,
@@ -101,8 +102,8 @@ export const sorts = [
 		label: 'универсальный',
 		item: 'Стардаст',
 		text: 'Луковицы красивого, жемчужно-белого цвета, выровненные. Универсальный сорт как для салата, так и для вторых блюд, а также на перо. Вкус остро-сладкий.',
-		measurement: '1 кг',
-		price: '1200 р.'
+		priceA: '1200 р.',
+		priceB: 'временно нет в продаже'
 	}, {
 		id: 8,
 		src: shtut,
@@ -110,7 +111,7 @@ export const sorts = [
 		label: 'популярный',
 		item: 'Штутгартер Ризен',
 		text: 'Самый популярный и распространенный сорт в нашей стране, благодаря чему цена севка этого сорта доступна, при этом качество луковицы превосходное. Луковицы золотисто-желтого цвета, сочные чешуи белые. Вкусное длинное перо.',
-		measurement: '1 кг',
-		price: '800 р.'
+		priceA: '800 р.',
+		priceB: 'временно нет в продаже'
 	}
 ]

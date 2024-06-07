@@ -43,6 +43,7 @@ h2 {
   margin: 3vh 0;
 }
 
+
 /*PAGES*/
 .home,
 .garlic-header,
@@ -192,7 +193,7 @@ h2 {
   align-items: center;
 }
 
-.garlic__sort-wrap img {
+.garlic__sort-wrap img, .onion__sort-wrap img {
   height: 20vh;
   border-radius: 50%;
 }
@@ -255,7 +256,35 @@ h2 {
   justify-content: center;
 }
 
+.onion__sort-info >ul {
+  list-style-type: none;
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
+}
 
+.onion-li {
+  height: 20px;
+  border-bottom: 1px dotted var(--accent);
+  background-color: var(--background);
+  margin-top: 10px;
+}
+
+.onion-price-line {
+  float: left;
+  background-color: var(--background);
+  font-weight: bold;
+}
+
+.onion-price {
+  float: right;
+  background-color: var(--background);
+}
+
+.onion-comment {
+  display: flex;
+  justify-content: start;
+}
 
 /*MEDIA*/
 

@@ -27,7 +27,7 @@ export default function Order() {
                     </ul>
 
                     <img src={arrow} alt="arrow_down" className="arrow-down"/>
-                    
+
                     <div className="order__wrapper">
                         <div className="order__item">
                             <label>через Telegram bot</label>
@@ -44,7 +44,7 @@ export default function Order() {
                         </div>
 
                         <div className="order__item">
-                            <label>напишите нам по электронной почте</label>
+                            <label>напишите нам по<br/> электронной почте</label>
                             <Mailto to='sales@greenpato.ru' className="mailto__wrapper">
                                     <img className="contacts__img" src={email} alt='email'/>
                             </Mailto>

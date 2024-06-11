@@ -296,6 +296,10 @@ h2 {
   position: relative;
 }
 
+.order-header>h1 {
+  font-size: 4em;
+}
+
 .order-list {
   width: fit-content;
   margin: 0 auto;
@@ -326,8 +330,19 @@ h2 {
 .order__item {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  width: 60vw;
+  margin-top: 5vh;
 }
+
+.order__item img {
+  margin: 0;
+}
+
+.order__item label {
+  font-size: 1.4em;
+}
+
 
 /*MEDIA*/
 
@@ -356,6 +371,10 @@ h2 {
     justify-content: center;
     align-items: center;
   }
+
+  .arrow-down {
+    transform: scale(1.4);
+  }
 }
 
 @media screen and (max-width: 620px) {
@@ -370,6 +389,9 @@ h2 {
   }
   .garlic__type-item img {
     height: 15vh;
+  }
+  .order-header>h1 {
+    font-size: 3em;
   }
 }
 

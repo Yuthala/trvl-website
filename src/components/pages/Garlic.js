@@ -48,7 +48,7 @@ export default function Garlic() {
     )
 
     return (
-        <div className="garlic">
+        <div className="garlic" id="garlic">
             <div className="garlic-header">
                 <h1>озимый чеснок</h1>
             </div>

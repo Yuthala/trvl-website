@@ -2,9 +2,12 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
+// import{ Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 function HeroSection() {
+
   return (
     <div className="hero-container">
         {/* <video src="../videos/Green_pato_cover.mp4" autoPlay loop muted/> */}
@@ -12,13 +15,16 @@ function HeroSection() {
         <p>Посевной материал собственного производства</p>
         
         <div className="hero-btns">
+          <Link to="/#cards" className="btn-mobile">
             <Button 
-                className="btns"
-                buttonStyle="btn--outline"
-                buttonSize="btn--large"
-            >
-            КАТАЛОГ
+                  className="btns"
+                  buttonStyle="btn--outline"
+                  buttonSize="btn--large"
+              >
+              КАТАЛОГ
             </Button>
+          </Link>
+
 
             <Button 
                 className="btns"   

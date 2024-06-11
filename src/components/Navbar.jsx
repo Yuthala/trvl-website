@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import { Button } from './Button';
 import './Navbar.css';
 import logo from './../images/logo.png'; 
@@ -57,15 +58,15 @@ function Navbar() {
                     </li>
 
                     <li className="nav-item">
-                        <Link to="/garlic" className="nav-links" onClick={closeMobileMenu}>
+                        <HashLink to="/garlic#garlic" className="nav-links" onClick={closeMobileMenu}>
                         Чеснок
-                        </Link>
+                        </HashLink>
                     </li>
 
                     <li className="nav-item">
-                        <Link to="/onion" className="nav-links" onClick={closeMobileMenu}>
+                        <HashLink to="/onion#onion" className="nav-links" onClick={closeMobileMenu}>
                             Лук
-                        </Link>
+                        </HashLink>
                     </li>
 
                     <li className="nav-item">
@@ -76,7 +77,11 @@ function Navbar() {
                     </li>
                 </ul>
                 {/* if button is true, return Button component */}
-                {button && <Button buttonStyle="btn--outline">ЗАКАЗАТЬ</Button>}
+                {button && 
+                <Link to="/order#order">
+                    <Button buttonStyle="btn--outline">ЗАКАЗАТЬ</Button>
+                </Link>
+}
             </div>
         </nav>
     </div>

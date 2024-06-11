@@ -10,31 +10,31 @@ const cards = [
         src: odn,
         text: 'однозубок чеснока',
         label: 'чеснок',
-        path: '/garlic'
+        path: '/garlic#garlic'
     },{
         id: 2,
         src: zubok,
         text: 'чеснок первого года, выращенный из однозубка',
         label: 'чеснок',
-        path: '/garlic'
+        path: '/garlic#garlic'
     }, {
         id: 3,
         src: shalot,
         text: 'лук-шалот',
         label: 'лук',
-        path: '/onion'
+        path: '/onion#onion'
     }, {
         id: 4,
         src: redbaron,
         text: 'лук репчатый',
         label: 'лук',
-        path: '/onion'
+        path: '/onion#onion'
     }, {
         id: 5,
         src: bulb,
         text: 'бульбочка чеснока',
         label: 'чеснок',
-        path: '/garlic'
+        path: '/garlic#garlic'
     }
 ];
 

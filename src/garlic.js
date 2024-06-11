@@ -37,7 +37,7 @@ export const assort = [
 		priceB: '400 р.',
 		priceC: '250 р.',
 		sizeA: '(диаметр 12 мм+)',
-		sizeB: '(диаметр 10-11 мм)',
+		sizeB: '(диаметр 10-12 мм)',
 		sizeC: '(диаметр 8-9 мм)',
 		measurement: '1 кг'
 	}, {

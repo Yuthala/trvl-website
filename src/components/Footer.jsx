@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import Mailto from 'react-mailto.js';
 import QRcode from '../images/qrcode.png';
 import tg from '../images/icons/tg.svg';
@@ -27,9 +28,9 @@ function Footer() {
 
                 <div className="footer-link-items">
                     <h2>Культуры</h2>
-                    <Link to='/garlic'>Озимый чеснок</Link>
-                    <Link to='/onion'>Лук шалот</Link>
-                    <Link to='/onion'>Лук репчатый</Link>
+                    <HashLink to='/garlic#garlic'>Озимый чеснок</HashLink>
+                    <HashLink to='/onion#onion'>Лук шалот</HashLink>
+                    <HashLink to='/onion#onion'>Лук репчатый</HashLink>
                 </div>
 
                 <div className="footer-link-items">
@@ -59,7 +60,7 @@ function Footer() {
                     <Link to="/" className="social-logo">
                         GREEN PATO
                     </Link>
-                <small className="website-rights">Green Pato © 2024</small>
+                <small className="website-rights">Green Pato © 2023-2024</small>
         </section>
     </div>
   )
